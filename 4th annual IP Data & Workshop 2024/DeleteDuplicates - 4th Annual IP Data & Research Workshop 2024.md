@@ -57,6 +57,6 @@ function main(workbook: ExcelScript.Workbook) {
 ````
 
 ## Important Notes
-- :warning: **DANGER** This script modifies the existing table, so make a copy of your data before running if you need to retain the original data.
+- :warning: **DANGER** This script modifies the existing table, so make a copy of your data before running if you need to retain the original data (changes cannot be undone with Ctrl + Z).
 - Ensure that the table has a header row and that the first column contains email addresses.
 - The script sorts data based on the second column. If the "Submission Time" is located in a different column, adjust `key: 1` to match the appropriate column index (note that column indices start from 0).
