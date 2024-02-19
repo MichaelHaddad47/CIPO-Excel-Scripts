@@ -107,6 +107,6 @@ function processHearing(hearingString: string, dataBodyRange: ExcelScript.Range,
 ````
 
 ## Important Notes
-- This script assumes the Dietary Restrictions column is in location 6 (G), followed in order by the columns Dairy, Peanuts, Eggs, Gluten, TreeNuts, SoyProducts, and DietaryRestrictionOther.
-- This script assumes the Hearing column is in location 14 (O), followed in order by the columns CIPOnet, CIPOinfo, InterConnex, CIPOConnex, Colleague, Manager, Director, and HearingOther.
+- This script assumes the "Dietary Restrictions" is in column 6 (G), followed in order by the columns Dairy, Peanuts, Eggs, Gluten, TreeNuts, SoyProducts, and DietaryRestrictionOther.
+- This script assumes the "Hearing" is in column 14 (O), followed in order by the columns CIPOnet, CIPOinfo, InterConnex, CIPOConnex, Colleague, Manager, Director, and HearingOther.
 - Adjust the script as necessary to align with your Excel sheet's specific formatting and column arrangement.
