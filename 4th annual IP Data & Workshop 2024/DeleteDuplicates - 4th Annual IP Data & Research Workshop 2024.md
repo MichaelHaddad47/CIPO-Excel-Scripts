@@ -16,7 +16,7 @@ function main(workbook: ExcelScript.Workbook) {
   // Sort the table by the second column in descending order
   table.getSort().apply([
     {
-      key: 1, // The second column
+      key: 1, // The second column "Submission Time"
       ascending: false // Sort in descending order
     }
   ]);
@@ -34,11 +34,11 @@ function main(workbook: ExcelScript.Workbook) {
 
   // Filter the data for unique email entries
   let uniqueDataValues = dataValues.filter((row) => {
-    let email = row[0] as string; // Cast the email to a string to satisfy TypeScript's type checking
+    let email = row[0] as string;
     if (uniqueEntries.hasOwnProperty(email)) {
-      return false; // This email has already been encountered, skip it
+      return false;
     } else {
-      uniqueEntries[email] = true; // Mark this email as encountered
+      uniqueEntries[email] = true;
       return true; // Keep this email
     }
   });
@@ -59,4 +59,4 @@ function main(workbook: ExcelScript.Workbook) {
 ## Important Notes
 - :warning: **DANGER** This script modifies the existing table, so make a copy of your data before running if you need to retain the original data.
 - Ensure that the table has a header row and that the first column contains email addresses.
-- The script sorts data based on the second column; adjust `key: 1` if you need to sort by a different column.
+- The script sorts data based on the second column. If the "Submission Time" is located in a different column, adjust `key: 1` to match the appropriate column index (note that column indices start from 0).
