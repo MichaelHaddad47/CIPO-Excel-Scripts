@@ -57,6 +57,6 @@ function main(workbook: ExcelScript.Workbook) {
 ````
 
 ## Important Notes
-- Ensure that the table has a header row and that the first column contains email addresses.
 - :warning: **DANGER** This script modifies the existing table, so make a copy of your data before running if you need to retain the original data.
+- Ensure that the table has a header row and that the first column contains email addresses.
 - The script sorts data based on the second column; adjust `key: 1` if you need to sort by a different column.
