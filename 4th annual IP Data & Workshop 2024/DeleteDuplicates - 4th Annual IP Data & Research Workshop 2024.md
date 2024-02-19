@@ -54,3 +54,9 @@ function main(workbook: ExcelScript.Workbook) {
 
   console.log("Removed duplicate rows based on the email column.");
 }
+````
+
+## Important Notes
+- Ensure that the table has a header row and that the first column contains email addresses.
+- This script modifies the existing table, so make a copy of your data before running if you need to retain the original data.
+- The script sorts data based on the second column; adjust `key: 1` if you need to sort by a different column.
