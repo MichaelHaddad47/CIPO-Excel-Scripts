@@ -1,5 +1,8 @@
 # ProcessData - Dietary Restrictions and Hearing
 
+## Description
+This Excel script is made to enhance participant data management by updating dietary and hearing preferences. It scans specific columns within a table to identify and categorize individual needs, such as dietary restrictions and preferred communication methods. It then marks corresponding fields with check marks, providing a clear overview and count of each entry.
+
 ## Script
 
 ```typescript
