@@ -1,3 +1,8 @@
+# Dietary Restrictions and Hearing Processing
+
+## Script
+
+```typescript
 async function main(workbook: ExcelScript.Workbook): Promise<void> {
   // Get the table on the active worksheet
   let table = workbook.getActiveWorksheet().getTables()[0];
