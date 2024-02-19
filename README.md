@@ -4,7 +4,7 @@
 This repository hosts a collection of essential Excel scripts designed to enhance data management. These scripts automate various tasks, such as sorting data, removing duplicates, and organizing participant information.
 
 ## Scripts Included
-1. [**DeleteDuplicates**]: Sorts and removes duplicate entries based on email addresses to ensure the most recent submissions are retained.
+1. [**DeleteDuplicates**](https://github.com/MichaelHaddad47/Excel-Scripts/blob/main/4th%20annual%20IP%20Data%20%26%20Workshop%202024/DeleteDuplicates%20-%204th%20Annual%20IP%20Data%20%26%20Research%20Workshop%202024.md): Sorts and removes duplicate entries based on email addresses to ensure the most recent submissions are retained.
 2. [**ProcessData**]: Analyzes and updates participant information regarding dietary restrictions and hearing preferences (tailored for the 4th Annual Workshop).
 
 Each script comes with detailed instructions and important notes regarding usage. Please refer to the individual script files for specific guidelines.
