@@ -1,7 +1,7 @@
-# Remove Duplicate Entries Based on Email Column
+# Remove Duplicate Email Entries
 
 ## Description
-This Excel script is designed to sort and remove duplicate entries from a table based on the email addresses listed in the first column. It sorts the table by the second column in descending order, then filters out duplicate email addresses, keeping only the first occurrence of each. Finally, it deletes all rows except for the unique ones and logs the changes. This script is useful for managing lists where unique email addresses are required.
+This Excel script is designed to sort and remove duplicate entries from a table based on the email addresses listed in the first column. It ensures the retention of the most recent submissions by sorting entries in descending order based the "Submission Time" column. It removes all older duplicates, leaving only the latest entry for each unique email address. This script is useful for managing lists where unique email addresses are required.
 
 ## Script
 
